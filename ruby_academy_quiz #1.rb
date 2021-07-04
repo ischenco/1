@@ -1,4 +1,3 @@
-=begin
 "4" == 4 ? puts("TRUE") : puts("FALSE")
 
 x=0
@@ -68,7 +67,7 @@ puts result
 
 array = (1..10).to_a
 puts array.select(&:odd?)
-=end
+
 
 hash = {name: "Elizabeth", title:" Queen"}
 hash.merge({country: "United Kingdom"})
