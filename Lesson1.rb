@@ -63,5 +63,23 @@ end
 puts max
 #=>600
 
+puts (10..100).inject(:+)
+puts (10..100).sum
+#=>5005
+
+def count(n)
+  if n == 1
+    puts n
+  else  
+  puts n
+  count(n-1)
+  end
+end
+# n=5 5 4 3 2 1
+
+while gets.chomp != "STOP"
+ puts "STOP ME PLEASE”
+end
+
 
 
