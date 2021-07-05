@@ -50,3 +50,18 @@ hash.keys
 hash = { :unu => "one", :doi => "two", :trei => "three" }
 hash.key?(:patru)
 #false
+
+#Loops Exercises
+arr = [300, 200, 600, 150]
+arr.max
+#=> 600
+arr = [300, 200, 600, 150]
+max=0
+arr.each do |maxelement|
+  max=maxelement if maxelement>max
+end
+puts max
+#=>600
+
+
+
