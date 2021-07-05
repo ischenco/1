@@ -78,7 +78,7 @@ end
 # n=5 5 4 3 2 1
 
 while gets.chomp != "STOP"
- puts "STOP ME PLEASE”
+ puts "STOP ME PLEASE"
 end
 
 
