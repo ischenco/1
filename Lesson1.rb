@@ -82,7 +82,7 @@ while gets.chomp != "STOP"
  puts "STOP ME PLEASE"
 end
 
-
+#Ruby conditions Exercises
 
 case rand(0..100)
 when 0
@@ -94,8 +94,6 @@ when 30..90
 when 100
 	puts "Your gas tank is Full"
 end
-
-
 
 
 puts "Enter the number between 0 and 100 "
