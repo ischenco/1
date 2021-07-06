@@ -1,3 +1,4 @@
+
 #Ruby Basic Data types Exercises
 string1="How do"
 string2="you do?"
@@ -83,3 +84,61 @@ end
 
 
 
+case rand(0..100)
+when 0
+puts "Your gas tank is empty"
+when 1..30
+puts "Your gas tank almost empty"
+when 30..90
+	puts "Your gas tank it’s fine"
+when 100
+	puts "Your gas tank is Full"
+end
+
+
+
+
+puts "Enter the number between 0 and 100 "
+num=gets.chomp.to_i
+if num >0 && num <=50
+  puts "Your number #{num} and it is between 0 and 50"
+end  
+if num >=51 && num <= 100
+  puts "Your number #{num} and it is between 51 and 100"
+end
+  if num > 100 
+  puts "Your number #{num} and it is above the 100"
+end
+
+case rand(13..45)
+when 13..16
+puts "Turn on the heater ZZZzzzz"
+when 29..45
+puts "Turn on AC"
+end
+
+puts "What kind of drinks do you want?"
+puts " We have water, beer, juice, soda, wine"
+drink=gets.chomp.to_s
+case drink
+when "water"
+  puts "You drink #{drink}! Healthy life!"
+  when "juice"
+  puts "You drink #{drink}! Healthy life!"
+  when "soda"
+  puts "You drink #{drink}! Healthy life!"
+  when "beer"
+  puts "You drink #{drink}! Do you have 18?"
+  when "wine"
+  puts "You drink #{drink}! Do you have 18?"
+else
+  puts "Cigarette?" 
+
+end
+
+array = (0..100).to_a
+array.select do |num|
+  if num.remainder(2)==0
+    puts num
+  end
+  end
